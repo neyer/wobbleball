@@ -552,7 +552,6 @@ GameObject:
   - 33: {fileID: 804729142}
   - 65: {fileID: 804729141}
   - 23: {fileID: 804729140}
-  - 54: {fileID: 804729139}
   - 114: {fileID: 804729144}
   m_Layer: 0
   m_Name: Platform
@@ -561,21 +560,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &804729139
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 804729138}
-  serializedVersion: 2
-  m_Mass: 100
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!23 &804729140
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -743,7 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 244bfe8129bbf4047a25b0229efa50cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followObject: {fileID: 1770186370}
+  followObject: {fileID: 804729138}
   offset: {x: 0, y: 20, z: -20}
 --- !u!4 &913442979 stripped
 Transform:
@@ -808,7 +792,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1032117957}
-  m_LocalRotation: {x: 0.28278685, y: -0.673518, z: 0.31406665, w: 0.6064383}
+  m_LocalRotation: {x: 0.28278682, y: -0.67351794, z: 0.31406662, w: 0.6064382}
   m_LocalPosition: {x: 0, y: 5, z: -0.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
