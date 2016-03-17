@@ -483,7 +483,7 @@ PlayerSettings:
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
   additionalIl2CppArgs::additionalIl2CppArgs: 
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: dab1a168-b5a0-4b0b-a21f-4b5d7710013b
+  projectName: wobbleball
+  organizationId: apxhard
   cloudEnabled: 0
